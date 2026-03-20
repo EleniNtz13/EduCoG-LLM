@@ -222,9 +222,9 @@ Implements the Steepest Descent algorithm.
 
 The repository includes two example assessment sets:
 
-- Set 1
+- Set_1.pdf
 
-- Set 2
+- `Set_2.pdf`
 
 These demonstrate how the parameterized pipeline generates assessment material under controlled configurations.
 

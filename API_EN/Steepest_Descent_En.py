@@ -157,7 +157,7 @@ def main():
     ax1 = fig.add_subplot(121, projection='3d')
     ax1.plot_surface(X, Y, Z, alpha=0.3, cmap='viridis') 
     ax1.plot(x_path, y_path, z_path, 'r-', label='Steepest Descent Path') 
-    ax1.scatter(min_x, min_y, min_value, color='red', s=100, label='Ελάχιστο Σημείο') # Placing the minimum
+    ax1.scatter(min_x, min_y, min_value, color='red', s=100, label='Ελάχιστο Σημείο')
     ax1.set_xlabel('$x$')
     ax1.set_ylabel('$y$'),
     ax1.set_zlabel('$f(x, y)$')

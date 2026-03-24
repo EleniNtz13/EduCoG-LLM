@@ -1,4 +1,4 @@
-# The code creates the Steepest Descent Algorithm to find the minimum of a function of two variables
+# The code creates the Steepest Descent algorithm to find the minimum of a function of two variables
 # The user enters the initial points, parameters and the function he wanted to examine
 # The algorithm calculates the derivatives and the slope of the function, updating the points at each step. 
 # The process teminates:

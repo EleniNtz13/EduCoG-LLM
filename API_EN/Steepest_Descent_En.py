@@ -140,7 +140,7 @@ def main():
     min_x, min_y, min_value, criterion, show_plots, x_path, y_path, z_path, total_tries = steepest_descent(f_num, x0, y0, a, c1, c2, c3, derivative_x_sym, derivative_y_sym)
 
     if not show_plots:
-        print("Maximum number of repetitions exceeded.") # This specific message is displayed informing the user
+        print("Maximum number of repetitions exceeded.") 
         return
 
     print("-------------------------------------------------------------------------------------")

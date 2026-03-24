@@ -8,7 +8,7 @@ try:
     with open("prompt.txt", "r", encoding="utf-8") as prompt_file:
         prompt = prompt_file.read().strip()
 except FileNotFoundError:
-    print("Error: The file 'prompt.txt' was not found. Please check the current working directory and the file name.")
+    print("Error: Το αρχείο 'prompt.txt' δεν βρέθηκε. Ελέγξτε τον τρέχοντα φάκελο εργασίας και το όνομα αρχείου.")
     exit(1)
 
 completion = client.chat.completions.create(

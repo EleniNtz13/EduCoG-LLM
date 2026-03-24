@@ -78,7 +78,7 @@ def steepest_descent(f_num, x0, y0, a, c1, c2, c3, derivative_x, derivative_y):
 
     while grad_norm == 0:
         print("Η κλίση στο σημείο (x0, y0) είναι 0. Παρακαλώ εισάγετε νέο σημείο εκκίνησης.")
-        x0, y0 = Initial_Point() # Ο χρήστης δίνει ξανά τα νέα σημεία
+        x0, y0 = Initial_Point() 
 
         slope_x = derivative_x.subs({x: x0, y: y0}).evalf()
         slope_y = derivative_y.subs({x: x0, y: y0}).evalf()

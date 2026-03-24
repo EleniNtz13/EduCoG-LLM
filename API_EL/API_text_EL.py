@@ -24,4 +24,4 @@ output_message = completion.choices[0].message.content
 with open("output.txt", "w", encoding="utf-8") as output_file:
     output_file.write(output_message)
 
-print("Output has been written to output.txt")
+print("Τα αποτελέσματα έχουν αποθηκευτεί στο αρχείο output.txt")
